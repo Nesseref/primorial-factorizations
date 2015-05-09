@@ -4,6 +4,7 @@
 #include <unistd.h>
 
 # Usage: ./bin_name first_n_primorial_numbers_to_compute_and_factor
+# Compile with 'g++ primorial.cpp -o bin_name -lgmp --std=c++11'
 
 std::vector<mpz_class> prime_factors(mpz_class n)
 {
